@@ -1,12 +1,12 @@
-import { Search, Settings, User } from "lucide-react";
 import { Link } from "react-router-dom";
+import { Search, Settings, User } from "lucide-react";
+import { Input } from "@/components/ui/input";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { Input } from "@/components/ui/input";
 
 export const DashboardHeader = () => {
   return (
