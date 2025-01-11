@@ -1,14 +1,18 @@
 import { Hero } from "@/components/Hero";
 import { Timeline } from "@/components/Timeline";
 import { VisionBuilder } from "@/components/VisionBuilder";
+import { Header } from "@/components/Header";
 
 const Index = () => {
   return (
-    <main className="min-h-screen">
-      <Hero />
-      <Timeline />
-      <VisionBuilder />
-    </main>
+    <div className="min-h-screen">
+      <Header />
+      <main className="pt-16">
+        <Hero />
+        <Timeline />
+        <VisionBuilder />
+      </main>
+    </div>
   );
 };
 
